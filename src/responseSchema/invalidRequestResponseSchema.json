@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2019-09/schema#",
+  "additionalProperties": true,
+  "required": ["_error", "_errorMessage"],
+  "properties": {
+    "_error": {
+      "type": "integer"
+    },
+    "_errorMessage": {
+      "type": "string"
+    },
+    "_errorDetails": {
+      "type": "object",
+      "properties": {
+        "email": {
+          "type": "string"
+        },
+        "password": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

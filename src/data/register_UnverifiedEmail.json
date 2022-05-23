@@ -1,0 +1,10 @@
+{
+  "method": "POST",
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "body": {
+    "email": "cong.skymavis.demo+unverified@gmail.com",
+    "password": "password123"
+  }
+}

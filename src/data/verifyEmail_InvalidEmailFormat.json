@@ -1,0 +1,10 @@
+{
+  "method": "POST",
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "body": {
+    "token": "",
+    "email": "cong.skymavis.demo"
+  }
+}
