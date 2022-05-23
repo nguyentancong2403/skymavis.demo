@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sample Test Suite">
+    <test name="Test Happy Flow">
+        <groups>
+            <run>
+                <include name="Happy flow"/>
+<!--                <include name="Pre-condition"/>-->
+            </run>
+        </groups>
+        <classes>
+            <class name="testcases.TCsRequestVerifyEmail" />
+            <class name="testcases.TCsVerifyEmail" />
+            <class name="testcases.TCsRegister" />
+        </classes>
+    </test>
+    <test name="Test Others">
+        <groups>
+            <run>
+                <include name="Independent cases"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="testcases.TCsRequestVerifyEmail" />
+            <class name="testcases.TCsVerifyEmail" />
+            <class name="testcases.TCsRegister" />
+        </classes>
+    </test>
+</suite>

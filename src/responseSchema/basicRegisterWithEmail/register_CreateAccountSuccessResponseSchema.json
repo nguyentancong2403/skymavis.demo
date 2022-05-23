@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2019-09/schema#",
+  "additionalProperties": true,
+  "required": ["accessToken", "accessTokenExpiresAt", "accessTokenExpiresIn", "refreshToken", "userID"],
+  "properties": {
+    "accessToken": {
+      "type": "string"
+    },
+    "accessTokenExpiresAt": {
+      "type": "string"
+    },
+    "accessTokenExpiresIn": {
+      "type": "integer"
+    },
+    "refreshToken": {
+      "type": "string"
+    },
+    "userID": {
+      "type": "string"
+    }
+  }
+}
